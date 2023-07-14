@@ -108,7 +108,7 @@
 	<haxelib name="flixel" />
 	<haxedev set='webgl' />
 
-	<!--In case you want to mod-->
+	<!--In case you want to "mod"-->
 	<haxelib name="yaml" />
 	<haxelib name="sscript" />
 
@@ -128,8 +128,7 @@
 	<!-- https://github.com/ninjamuffin99/Flixel-Animate-Atlas-Player -->
 
 
-	<haxelib name="discord_rpc" if="cpp" unless="neko"/>
-	<haxelib name="hxcpp-debug-server" if="desktop"/>
+	<!--<haxelib name="discord_rpc" if="cpp" unless="neko"/>-->
 
 	<!-- <haxelib name="markdown" /> -->
 	<!-- <haxelib name="HtmlParser" /> -->
