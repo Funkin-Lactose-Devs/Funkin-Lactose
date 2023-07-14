@@ -12,6 +12,8 @@ IF YOU MAKE A MOD AND DISTRIBUTE A MODIFIED / RECOMPILED VERSION, YOU MUST OPEN 
 
 Uh oh! Your tryin to kiss ur hot girlfriend, but her MEAN and EVIL dad is trying to KILL you! He's an ex-rockstar, the only way to get to his heart? The power of music...
 
+also idk if i can get hitsounds and middlescroll working i cant
+
 ## Credits / shoutouts
 
 ### Funkin' Lactose Team
