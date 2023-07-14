@@ -1645,7 +1645,7 @@ class PlayState extends MusicBeatState
 
 				if (PreferencesMenu.getPref('middlescroll')) //this should entirely remove the opponent notes with both optimization and middlescroll on
 					{
-						if (!gottaHitNote && PlayStateChangeables.Optimize)
+						if (!gottaHitNote)
 							continue;
 					}
 
@@ -1980,7 +1980,7 @@ class PlayState extends MusicBeatState
 
 		if (PreferencesMenu.getPref('accu-display'))
 		{
-			scoreTxt.text = "Score:" + songScore + " | Misses:" + misses + " | Accuracy:" + truncateFloat(accuracy, 2) + "% " + (fc ? "| FC" : misses == 0 ? "| A" : accuracy <= 75 ? "| Bad" : "");
+			scoreTxt.text = "Score:" + songScore + " | Misses:" + misses + " | Accuracy:" + truncateFloat(accuracy, 2);
 		}
 		else
 		{
